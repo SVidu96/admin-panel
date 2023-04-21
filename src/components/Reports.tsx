@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'preact/hooks';
-import { MyData } from './models/MyData';
+import { MyData } from '../models/MyData';
 
 export function Report() {
   const [data, setData] = useState<MyData | null>(null);
